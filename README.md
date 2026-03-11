@@ -70,17 +70,14 @@ print(programming_languages[0])
 First programming language: Python
 Python
 
-# Question 7 - Dictionary
-student = {
-    "Name": "Bonny",
-    "Age": 20,
-    "Course": "AI Foundations SSN-10"
-}
+# Question 7 - Create a dictionary  with the following student information:
 
 print("Student Information:")
 print("Name:", student["Name"])
-print("Age:", student["age"])  
-print("Course:", student["course"])    
+print("Age:", student["Age"])           
+print("Course:", student["Course"])
+
+print("\nFull dictionary:", student)    
 
 print("\nFull dictionary:", student)
 Student Information:
